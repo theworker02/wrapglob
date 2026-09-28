@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/wrapglob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wrap validation gates for glob inputs before they hit prod.",
+  "bin": {
+    "wrapglob": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/wrapglob.git"
+  },
+  "homepage": "https://theworker02.github.io/wrapglob/",
+  "keywords": [
+    "wrap",
+    "glob",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
